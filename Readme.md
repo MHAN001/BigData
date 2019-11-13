@@ -2,7 +2,9 @@
 
 > <p>:octocat: This is final project of class INFO 7250</p>
 ## Project Goal
-    Use complicate Hadoop Map Reduce job to analyze data based on different purpose. Spring as the back end server to provide neccessary API as well as Angular 8 as front end to provide user interface
+    Use complicate Hadoop Map Reduce job to analyze data based on different purpose
+    Spring as the back end server to provide neccessary API
+    Angular 8 as front end to provide user interface
 
 ## Environment
     Operation System: Ubuntu 18.04.3 LTS

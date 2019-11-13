@@ -33,7 +33,7 @@
             7 and 8 represent age between >=50
         10. gender: consumer/buyer gender: 0 represent female, 1 represent male, 2 and NULL represent unknow
         11. province: consumer state address
-    Data Link: <a>https://drive.google.com/open?id=1KV_uyniNjiKGzO7A370P9Nz1liqEC31S</a>
+    Data Link: <a href="https://drive.google.com/open?id=1KV_uyniNjiKGzO7A370P9Nz1liqEC31S">Double 11.zip</a>
 
 ## Architecture
     TODO

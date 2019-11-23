@@ -2,7 +2,9 @@
 
 > <p>:octocat: This is final project of class INFO 7250</p>
 ## Project Goal
-    Use complicate Hadoop Map Reduce job to analyze data based on different purpose. Spring as the back end server to provide neccessary API as well as Angular 8 as front end to provide user interface
+    Use complicate Hadoop Map Reduce job to analyze data based on different purpose
+    Spring as the back end server to provide neccessary API
+    Angular 8 as front end to provide user interface
 
 ## Environment
     Operation System: Ubuntu 18.04.3 LTS
@@ -31,7 +33,7 @@
             7 and 8 represent age between >=50
         10. gender: consumer/buyer gender: 0 represent female, 1 represent male, 2 and NULL represent unknow
         11. province: consumer state address
-    Data Link: https://drive.google.com/open?id=1KV_uyniNjiKGzO7A370P9Nz1liqEC31S
+   Data Link: [**Double 11.zip**](https://drive.google.com/open?id=1KV_uyniNjiKGzO7A370P9Nz1liqEC31S)<br>
 
 ## Architecture
     TODO

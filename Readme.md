@@ -36,7 +36,7 @@
    Data Link: [**Double 11.zip**](https://drive.google.com/open?id=1KV_uyniNjiKGzO7A370P9Nz1liqEC31S)<br>
 
 ## Architecture
-    TODO
+![](https://github.com/MHAN001/BigData/blob/master/Architecture.png)
 
 ## Usage
     TODO

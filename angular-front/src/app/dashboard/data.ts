@@ -10,9 +10,13 @@ export var single = [
     {
       "name": "France",
       "value": 7200000
+    },
+    {
+      "name": "China",
+      "value": 1000000
     }
   ];
-  
+
   export var multi = [
     {
       "name": "Germany",
@@ -27,7 +31,7 @@ export var single = [
         }
       ]
     },
-  
+
     {
       "name": "USA",
       "series": [
@@ -41,7 +45,7 @@ export var single = [
         }
       ]
     },
-  
+
     {
       "name": "France",
       "series": [
@@ -56,4 +60,3 @@ export var single = [
       ]
     }
   ];
-  

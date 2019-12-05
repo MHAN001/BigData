@@ -33,6 +33,14 @@
             7 and 8 represent age between >=50
         10. gender: consumer/buyer gender: 0 represent female, 1 represent male, 2 and NULL represent unknow
         11. province: consumer state address
+    train.csv and test.csv contains following fields:
+        1. user_id: unqiue ids for different consumers
+        2. age_range: consumer(buyer) age range
+        3. gender: consumer/buyer gender
+        4. merchant_id: unique seller ids 
+        5. label: whether there is loyal customer. 0 represent not; 1 represent yes; -1 represent dismissed data
+
+
    Data Link: [**Double 11.zip**](https://drive.google.com/open?id=1KV_uyniNjiKGzO7A370P9Nz1liqEC31S)<br>
 
 ## Architecture

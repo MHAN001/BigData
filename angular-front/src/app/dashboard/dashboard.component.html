@@ -1,26 +1,32 @@
 <ngx-charts-bar-vertical
   [view]="view"
   [scheme]="colorScheme"
-  [results]="single"
+  [results]="top5"
   [gradient]="gradient"
   [xAxis]="showXAxis"
   [yAxis]="showYAxis"
   [legend]="showLegend"
+  [legendTitle]="top5Legend"
   [showXAxisLabel]="showXAxisLabel"
   [showYAxisLabel]="showYAxisLabel"
   [xAxisLabel]="xAxisLabel"
   [yAxisLabel]="yAxisLabel">
 </ngx-charts-bar-vertical>
-<ngx-charts-pie-chart
+<ngx-charts-polar-chart
   [view]="view"
   [scheme]="colorScheme"
-  [results]="single"
+  [results]="multi"
   [animations]="animations"
-  [labels]="labels"
-  [gradient]="gradient">
-</ngx-charts-pie-chart>
+  [showXAxisLabel]="showXAxisLabel"
+  [showYAxisLabel]="showYAxisLabel"
+  [gradient]="gradient"
+  [legend]="showLegend"
+  [xAxis]="showXAxis"
+  [yAxis]="showYAxis">
+</ngx-charts-polar-chart>
 <ngx-charts-tree-map
   [view]="view"
   [scheme]="colorScheme"
-  [results]="single">
+  [gradient]="gradient"
+  [results]="gender">
 </ngx-charts-tree-map>

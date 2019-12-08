@@ -1,5 +1,6 @@
 import { Component} from '@angular/core';
-import { single, multi } from './data';
+import { top5, gender, multi } from './data';
+
 
 @Component({
     selector: 'app-dashboard',
@@ -7,9 +8,11 @@ import { single, multi } from './data';
     styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent {
-    single: any[];
     multi: any[];
-
+    obj: any[];
+    top5: any[];
+    gender: any[];
+    top5Legend: string = 'Merchant Id';
     view: any[] = [700, 400];
 
     // pie & bar
@@ -31,6 +34,6 @@ export class DashboardComponent {
     };
 
     constructor() {
-      Object.assign(this, { single });
+      Object.assign(this, { top5, gender, multi });
     }
 }
